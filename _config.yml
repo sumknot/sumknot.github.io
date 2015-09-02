@@ -6,28 +6,40 @@ exclude: ["README.md"] # files to exclude
 highlighter: pygments
 markdown: kramdown
 disqus: dbyll
-google_analytics: dbyll
+# google_analytics:
+rss_path: feed.xml
+BASE_PATH:
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Painkiller's Blog
 
-description: Stylish Jekyll Theme
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  name: PAINKILLER
+  email: sumknot@foxmail.com
+  github: sumknot
+  # twitter: dbtek
+  # pinterest: asd123
+  # linkedin: asd123
+  avatar: /assets/image/avatar.jpg
+  avatar_size: 220
+  bio: This city is guilty, the crime is life, the sentence is death, darkness descendes!
+  # email_md5: 726351295ec82e145928582f595aa3aa
 
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
+menu:
+  categories_path: categories.html
+  tags_path: tags.html
 
-BASE_PATH:
+strings:
+  avatar_title: 金属大湿中写代码最牛逼的
+  home: 主页
+  categories: 分类
+  tags: 标签
+  top_of_page: 回到顶部
+  previous_article: 上一篇
+  next_article: 下一篇
+  previous_page: 上一页
+  next_page: 下一页
