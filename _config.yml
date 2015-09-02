@@ -25,7 +25,7 @@ author:
   # pinterest: asd123
   # linkedin: asd123
   avatar: /assets/image/avatar.jpg
-  avatar_size: 260
+  avatar_size: 240
   bio: This city is guilty, the crime is life, the sentence is death, darkness descendes!
   # email_md5: 726351295ec82e145928582f595aa3aa
 
@@ -34,7 +34,7 @@ menu:
   tags_path: tags.html
 
 strings:
-  avatar_title: 金属大湿中写代码最牛逼的
+  avatar_title: 
   home: 主页
   categories: 分类
   tags: 标签
