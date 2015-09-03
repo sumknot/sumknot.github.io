@@ -17,6 +17,8 @@ defaults:
     values:
       title: Painkiller's Blog
 
+favicon: /assets/ico/favicon.png
+
 author:
   name: PAINKILLER
   email: sumknot@foxmail.com
