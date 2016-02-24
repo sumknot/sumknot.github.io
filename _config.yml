@@ -1,9 +1,11 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
+gems: [jekyll-paginate]
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
-highlighter: pygments
+#highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 disqus: dbyll
 # google_analytics:
@@ -15,12 +17,12 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Painkiller's Blog
+      title: Tormentor's Blog
 
 favicon: /assets/ico/favicon.png
 
 author:
-  name: PAINKILLER
+  name: Tormentor
   email: cn.sumknot@gmail.com
   github: sumknot
   # twitter: dbtek
@@ -38,6 +40,8 @@ menu:
   tags_path: tags.html
 
 strings:
+  tab: "&#160; &#160; &#160; &#160;"
+  crlf: "<br />"
   avatar_title:
   home: 主页
   categories: 分类
